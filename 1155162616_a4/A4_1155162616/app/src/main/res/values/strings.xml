@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">A4_1155162616</string>
+    <string name="default_chatroom">Default Chatroom</string>
+    <string name="chatroom_name">ChatRoom</string>
+    <string name="myName">Sisyphus</string>
+    <string name="myID">1155162616</string>
+
+    <string name="get_chatroomsAPI">http://34.96.148.39/api/a3/get_chatrooms/</string>
+    <string name="get_messagesAPI">http://34.96.148.39/api/a3/get_messages/</string>
+    <string name="send_messageAPI">http://34.96.148.39/api/a3/send_message/</string>
+    <string name="get_tokensAPI">http://34.96.148.39/api/a4/submit_push_token/</string>
+    
+    <string name="timeFormatWithYear">yyyy-MM-dd HH:mm</string>
+    <string name="timeFormatWithoutYear">HH:mm</string>
+
+    <string name="rightStatus">OK</string>
+
+    <string name="sendInvalidHint">Text cannot be empty!</string>
+    <string name="sendSuccessedHint">SendMessageSuccessed</string>
+    <string name="sendFailedHint">SendMessageFailed</string>
+    <string name="APIStatusHint">API ERROR!</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+</resources>
